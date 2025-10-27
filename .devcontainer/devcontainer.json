@@ -1,0 +1,9 @@
+{
+  "name": "Laravel Codespace",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8000, 3306],
+  "postCreateCommand": "true",
+  "remoteUser": "vscode"
+}
